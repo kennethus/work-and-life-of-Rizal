@@ -100,6 +100,7 @@ export default function IntangiblesSection() {
     setCurrentIndex(newIndex);
   };
 
+  // get all slides
   useEffect(() => {
     const container = containerRef.current;
     if (!container) return;
