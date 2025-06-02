@@ -8,7 +8,7 @@ const Note = require("./routes/notes");
 
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: ["http://localhost:5173", "https://rizal-legacies.vercel.app"],
     credentials: true,
   })
 );
